@@ -1,0 +1,36 @@
+<form action="Formulario_FJRR.html" method="get">
+<h1>Información y gustos generales</h1>
+
+	<h2>Nombre y primer apellido</h2>
+		<label form="nombre">Nombre:</label>
+		<input name="Nombre" type="text" value="" size="40" maxlength="20" pattern="[A-Za-z]{2}">
+		
+	<h2>Intervalo de edad</h2>
+		<input type="radio" name="Edad" value="18-23"> Entre 18-23 años
+		<br>
+		<input type="radio" name="Edad" value="23-30"> Entre 23-30 años
+		<br>
+		<input type="radio" name="Edad" value="30-40"> Entre 30-40 años
+		<br>
+		<input type="radio" name="Edad" value="+40"> Más de 40 años
+		<br>
+		<input type="radio" name="Edad" value="No responder"> Prefiero no responder
+
+	<h2>¿Cómo te desplazas hasta el instituto?</h2>
+		<label form="Transporte">Método de transporte:</label>
+		<select name="transporte">
+		<option value="Andando">Andando</option>
+		<option value="En coche">En coche</option>
+		<option value="En autobús">En autobús</option>
+		<option value="Otro">Otro</option>
+		</select>
+		
+	<h2>Lugar de residencia</h2>
+		<textarea name="Residencia" rows="10" cols="30"> </textarea>
+
+	<h2>Correo electrónico</h2>
+		<label form="email">Email:</label>
+		<input type="email" name="email" autocomplete="on">
+<br></br>
+<input type="submit" value="Enviar">
+</form>
